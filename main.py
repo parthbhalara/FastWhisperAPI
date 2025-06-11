@@ -81,17 +81,17 @@ def home():
                 </ul>
                 <h4>Example curl request:</h4>
                 <ul style="list-style-type:none;">
-                    <li>curl -X POST "http://localhost:8000/v1/transcriptions" \</li>
-                    <li>-H  "accept: application/json" \</li>
-                    <li>-H  "Content-Type: multipart/form-data" \</li>
-                    <li>-F "file=@audio1.wav;type=audio/wav" \</li>
-                    <li>-F "file=@audio2.wav;type=audio/wav" \</li>
-                    <li>-F "model=base" \</li>
-                    <li>-F "language=en" \</li>
-                    <li>-F "initial_prompt=RoBERTa, Mixtral, Claude 3, Command R+, LLama 3." \</li>
-                    <li>-F "vad_filter=False" \</li>
-                    <li>-F "min_silence_duration_ms=1000" \</li>
-                    <li>-F "response_format=text" \</li>
+                    <li>curl -X POST "http://localhost:8000/v1/transcriptions" \\</li>
+                    <li>-H  "accept: application/json" \\</li>
+                    <li>-H  "Content-Type: multipart/form-data" \\</li>
+                    <li>-F "file=@audio1.wav;type=audio/wav" \\</li>
+                    <li>-F "file=@audio2.wav;type=audio/wav" \\</li>
+                    <li>-F "model=base" \\</li>
+                    <li>-F "language=en" \\</li>
+                    <li>-F "initial_prompt=RoBERTa, Mixtral, Claude 3, Command R+, LLama 3." \\</li>
+                    <li>-F "vad_filter=False" \\</li>
+                    <li>-F "min_silence_duration_ms=1000" \\</li>
+                    <li>-F "response_format=text" \\</li>
                     <li>-F "timestamp_granularities=segment"</li>
                 </ul>
             </li>
